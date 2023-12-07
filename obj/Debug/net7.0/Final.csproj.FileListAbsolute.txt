@@ -1,0 +1,4 @@
+/Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.AssemblyInfoInputs.cache
+/Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.AssemblyInfo.cs
+/Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.csproj.CoreCompileInputs.cache
