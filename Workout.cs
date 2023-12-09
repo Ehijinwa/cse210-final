@@ -3,7 +3,8 @@ public class Workout
     private string _equipment;
     private int _reps;
     private int _exerciseTime;
-    private int _breakTime;
+    private Timer timer = new Timer();
+
 
     public string Equipment
     {
@@ -20,41 +21,45 @@ public class Workout
         get {return _exerciseTime;}
         set {_exerciseTime = value;}
     }
-    public int Breaktime
+    public Timer Timer
     {
-        get {return _breakTime;}
-        set {_breakTime = value;}
+        get {return timer;}
     }
 
-    public Workout()
+
+    public Workout(string equipment, int exerciseTime, int reps)
     {
-        Console.WriteLine("What equiptment do you want?");
-        string equipment = Console.ReadLine();
-        Console.WriteLine("How many reps?");
-        int reps = int.Parse(Console.ReadLine());
-        Console.WriteLine("How long will you be exercising for?");
-        int exerciseTime = int.Parse(Console.ReadLine());
-        Console.WriteLine("How long is your break time");
-        int breakTime = int.Parse(Console.ReadLine());
+        
+        
+       
+
         _equipment = equipment;
-        _breakTime = breakTime;
+        
         _exerciseTime = exerciseTime;
         _reps = reps;
     }
 
+    public Workout()
+    {
+
+    }
+
     
 
-    public int CalsBurned()
+    public virtual int CalsBurned()
     {
         // calculate calories burned
-        return 1;
+        int calsBurned = 42 * 2 * _reps * _exerciseTime;
+        return calsBurned;
     }
-    public void Start()
+    public virtual void Start()
     {
+        Console.WriteLine("Start doing your exercise");
+        timer.Delay(_exerciseTime);
+    }
+    public virtual void Stop()
+    {
+        Console.WriteLine("Stop");
         
-    }
-    public void Stop()
-    {
-
     }
 }

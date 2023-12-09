@@ -2,3 +2,13 @@
 /Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.AssemblyInfoInputs.cache
 /Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.AssemblyInfo.cs
 /Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.csproj.CoreCompileInputs.cache
+/Users/chelseaehijinwa/CSE210/cse210 final/bin/Debug/net7.0/Final
+/Users/chelseaehijinwa/CSE210/cse210 final/bin/Debug/net7.0/Final.deps.json
+/Users/chelseaehijinwa/CSE210/cse210 final/bin/Debug/net7.0/Final.runtimeconfig.json
+/Users/chelseaehijinwa/CSE210/cse210 final/bin/Debug/net7.0/Final.dll
+/Users/chelseaehijinwa/CSE210/cse210 final/bin/Debug/net7.0/Final.pdb
+/Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.dll
+/Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/refint/Final.dll
+/Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.pdb
+/Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/Final.genruntimeconfig.cache
+/Users/chelseaehijinwa/CSE210/cse210 final/obj/Debug/net7.0/ref/Final.dll
